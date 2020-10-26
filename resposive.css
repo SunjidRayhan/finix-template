@@ -356,3 +356,48 @@
         margin-left: 67px;
     }
 }
+@media (max-width:450px){
+    .h-call .h-call-right a {
+                font-size: 13px;
+            }
+    .slider-social span::after {
+        right: -32px;
+    }
+    .common-content-1 h2 {
+        font-size: 20px;
+    }
+    .lfb-left h2 {
+        font-size: 17px;
+    }
+    .lfb-left ul li {
+        margin-bottom: 20px;
+    }
+    .lfb-left ul li h4 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .lfb-left ul li p {
+        line-height: 1.2rem;
+        font-size: 15px;
+    }
+    .lfb-left ul::before {
+        height: calc(100% - 140px);
+    }
+    .clients-content-right .ccr-icon {
+        left: 130px;
+        bottom: 30px;
+    }
+    .lfb-right {
+        padding: 15px;
+    }
+    .lfb-right p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .lfb-right h4 {
+        font-size: 20px;
+    }
+    .lfb-right .lfbr-form form label {
+        font-size: 14px;
+    }
+}
